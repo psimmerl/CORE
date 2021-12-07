@@ -1,0 +1,392 @@
+Error in <TFoam::Divide>: Wrong kBest 
+
+Error in <TFoamVect::TFoamVect>: operator[], out of range 
+
+Error in <TFoamVect::TFoamVect>: operator[], out of range 
+
+Error in <TFoamVect::TFoamVect>: operator[], out of range 
+
+Error in <TFoamVect::TFoamVect>: operator[], out of range 
+
+*** Error in `/work/clas12/psimmerl/eic/nopeg-master/topeg': free(): invalid size: 0x0000000002f0ba50 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x81299)[0x7fd99a53b299]
+/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20(_ZN9TFoamVectD2Ev+0x2d)[0x7fd99b3b196d]
+/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20(_ZN9TFoamCell10CalcVolumeEv+0x9d)[0x7fd99b3af3fd]
+/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20(_ZN5TFoam7ExploreEP9TFoamCell+0x90)[0x7fd99b3ac890]
+/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20(_ZN5TFoam6DivideEP9TFoamCell+0xde)[0x7fd99b3a676e]
+/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20(_ZN5TFoam4GrowEv+0x140)[0x7fd99b3a7cb0]
+/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20(_ZN5TFoam10InitializeEv+0x62a)[0x7fd99b3aadea]
+/work/clas12/psimmerl/eic/nopeg-master/topeg(main+0x26e2)[0x407502]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fd99a4dc555]
+/work/clas12/psimmerl/eic/nopeg-master/topeg[0x40842e]
+======= Memory map: ========
+00400000-00423000 r-xp 00000000 00:3a 10241859                           /w/hallb-scshelf2102/clas12/psimmerl/eic/nopeg-master/topeg
+00622000-00623000 r--p 00022000 00:3a 10241859                           /w/hallb-scshelf2102/clas12/psimmerl/eic/nopeg-master/topeg
+00623000-00624000 rw-p 00023000 00:3a 10241859                           /w/hallb-scshelf2102/clas12/psimmerl/eic/nopeg-master/topeg
+00624000-00626000 rw-p 00000000 00:00 0 
+012b9000-02f5c000 rw-p 00000000 00:00 0                                  [heap]
+7fd980000000-7fd980021000 rw-p 00000000 00:00 0 
+7fd980021000-7fd984000000 ---p 00000000 00:00 0 
+7fd98714b000-7fd98716d000 r-xp 00000000 08:02 80398                      /usr/lib64/ld-2.17.so
+7fd98716d000-7fd98736c000 ---p 00022000 08:02 80398                      /usr/lib64/ld-2.17.so
+7fd98736c000-7fd98736d000 r--p 00021000 08:02 80398                      /usr/lib64/ld-2.17.so
+7fd98736d000-7fd98736e000 rw-p 00022000 08:02 80398                      /usr/lib64/ld-2.17.so
+7fd98736e000-7fd98736f000 rw-p 00000000 00:00 0 
+7fd98736f000-7fd987413000 r--p 00000000 00:31 432485496                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/SessionViewer.pcm
+7fd987413000-7fd98754b000 rw-p 00000000 00:00 0 
+7fd98754b000-7fd9877fe000 r--p 00000000 00:31 433780030                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Smatrix.pcm
+7fd9877fe000-7fd98787e000 r--p 00000000 00:31 432485490                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Gviz3d.pcm
+7fd98787e000-7fd987909000 r--p 00000000 00:31 433805565                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/ProofBench.pcm
+7fd987909000-7fd987a1b000 r--p 00000000 00:31 433805569                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Gdml.pcm
+7fd987a1b000-7fd987a89000 r--p 00000000 00:31 432494079                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/ASImageGui.pcm
+7fd987a89000-7fd987b01000 r--p 00000000 00:31 432494071                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/RootAuth.pcm
+7fd987b01000-7fd987daf000 r--p 00000000 00:31 433805577                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/GenVector.pcm
+7fd987daf000-7fd987e27000 r--p 00000000 00:31 433780028                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/MLP.pcm
+7fd987e27000-7fd9880f2000 r--p 00000000 00:31 434035917                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Minuit2.pcm
+7fd9880f2000-7fd988160000 r--p 00000000 00:31 433780041                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/SpectrumPainter.pcm
+7fd988160000-7fd988292000 r--p 00000000 00:31 434035916                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/MathMore.pcm
+7fd988292000-7fd98830a000 r--p 00000000 00:31 432494078                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/ASImage.pcm
+7fd98830a000-7fd9883c8000 r--p 00000000 00:31 432485497                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/ProofPlayer.pcm
+7fd9883c8000-7fd98843c000 r--p 00000000 00:31 432494076                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/GX11.pcm
+7fd98843c000-7fd9884a7000 r--p 00000000 00:31 432494077                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/GX11TTF.pcm
+7fd9884a7000-7fd988544000 r--p 00000000 00:31 432494070                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/SQLIO.pcm
+7fd988544000-7fd9885ce000 r--p 00000000 00:31 432485492                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/GuiBld.pcm
+7fd9885ce000-7fd988640000 r--p 00000000 00:31 433780038                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/FFTW.pcm
+7fd988640000-7fd9886ca000 r--p 00000000 00:31 432485494                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Recorder.pcm
+7fd9886ca000-7fd98883c000 r--p 00000000 00:31 432485495                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Proof.pcm
+7fd98883c000-7fd988912000 r--p 00000000 00:31 433805567                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/GeomBuilder.pcm
+7fd988912000-7fd988c7b000 r--p 00000000 00:31 434035912                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/RooStats.pcm
+7fd988c7b000-7fd988cea000 r--p 00000000 00:31 433594752                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Rint.pcm
+7fd988cea000-7fd9899ae000 r--p 00000000 00:31 434035910                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/RooFit.pcm
+7fd9899ae000-7fd989a18000 r--p 00000000 00:31 433780031                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/SPlot.pcm
+7fd989a18000-7fd989a87000 r--p 00000000 00:31 432485484                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/X3d.pcm
+7fd989a87000-7fd989b04000 r--p 00000000 00:31 433805576                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/RooFitMore.pcm
+7fd989b04000-7fd989b76000 r--p 00000000 00:31 434035918                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Fumili.pcm
+7fd989b76000-7fd989bfe000 r--p 00000000 00:31 432494075                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Postscript.pcm
+7fd989bfe000-7fd989c93000 r--p 00000000 00:31 433805574                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/TMVAGui.pcm
+7fd989c93000-7fd989d29000 r--p 00000000 00:31 432485493                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/GuiHtml.pcm
+7fd989d29000-7fd989ead000 r--p 00000000 00:31 433805566                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Html.pcm
+7fd989ead000-7fd98ad58000 r--p 00000000 00:31 434035909                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/RooFitCore.pcm
+7fd98ad58000-7fd98b086000 r--p 00000000 00:31 434035914                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/HistFactory.pcm
+7fd98b086000-7fd98b5cd000 rw-p 00000000 00:00 0 
+7fd98b5cd000-7fd98b65d000 r--p 00000000 00:31 432485488                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/EG.pcm
+7fd98b65d000-7fd98b711000 r--p 00000000 00:31 434035919                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Physics.pcm
+7fd98b711000-7fd98b776000 r--p 00000000 00:31 432485485                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/RCsg.pcm
+7fd98b776000-7fd98bc60000 r--p 00000000 00:31 432485487                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/RGL.pcm
+7fd98bc60000-7fd98bd4c000 r--p 00000000 00:31 432494068                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Ged.pcm
+7fd98bd4c000-7fd98c28b000 r--p 00000000 00:31 432485489                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Eve.pcm
+7fd98c28b000-7fd98c304000 r--p 00000000 00:31 433780036                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Genetic.pcm
+7fd98c304000-7fd98c3d3000 r--p 00000000 00:31 434035920                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Graf3d.pcm
+7fd98c3d3000-7fd98c6ba000 r--p 00000000 00:31 432485486                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Geom.pcm
+7fd98c6ba000-7fd98c73a000 r--p 00000000 00:31 433805568                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/GeomPainter.pcm
+7fd98c73a000-7fd98c7ce000 r--p 00000000 00:31 433780029                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Quadp.pcm
+7fd98c7ce000-7fd98c879000 r--p 00000000 00:31 433780037                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Unuran.pcm
+7fd98c879000-7fd98c950000 r--p 00000000 00:31 433805571                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/RMySQL.pcm
+7fd98c950000-7fd98ca34000 r--p 00000000 00:31 433805564                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/ProofDraw.pcm
+7fd98ca34000-7fd98cd5a000 r--p 00000000 00:31 432494067                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Gui.pcm
+7fd98cd5a000-7fd98cdf9000 r--p 00000000 00:31 432485491                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/FitPanel.pcm
+7fd98cdf9000-7fd98ce8d000 r--p 00000000 00:31 432494072                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/RDAVIX.pcm
+7fd98cea9000-7fd98cf2a000 r--p 00000000 00:31 433805570                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/PyROOT.pcm
+7fd98cf2a000-7fd98d1d0000 r--p 00000000 00:31 433780032                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/ROOTVecOps.pcm
+7fd98d1d0000-7fd98dd80000 r--p 00000000 00:31 433780033                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/ROOTDataFrame.pcm
+7fd98dd80000-7fd98de08000 r--p 00000000 00:31 433284970                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Minuit.pcm
+7fd98de08000-7fd98ded9000 r--p 00000000 00:31 434035911                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Gpad.pcm
+7fd98ded9000-7fd98e26f000 r--p 00000000 00:31 434035921                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/TreePlayer.pcm
+7fd98e26f000-7fd98e368000 r--p 00000000 00:31 433780034                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/XMLIO.pcm
+7fd98e368000-7fd98e47b000 r--p 00000000 00:31 434035915                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/MultiProc.pcm
+7fd98e47b000-7fd98e587000 r--p 00000000 00:31 433284972                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Net.pcm
+7fd98e587000-7fd98e7eb000 r--p 00000000 00:31 433284973                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Tree.pcm
+7fd98e7eb000-7fd98f802000 r--p 00000000 00:31 433780035                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/TMVA.pcm
+7fd98f802000-7fd98f88e000 r--p 00000000 00:31 433805575                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/PyMVA.pcm
+7fd98f88e000-7fd98f986000 r--p 00000000 00:31 433284969                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Graf.pcm
+7fd98f986000-7fd98fa0e000 r--p 00000000 00:31 433780039                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/HistPainter.pcm
+7fd98fa0e000-7fd98fb3b000 r--p 00000000 00:31 432494073                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/RHTTP.pcm
+7fd98fb3b000-7fd98fba3000 r--p 00000000 00:31 432494074                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/RHTTPSniff.pcm
+7fd98fba3000-7fd98fc24000 rw-p 00000000 00:00 0 
+7fd98fc24000-7fd98fc97000 r--p 00000000 00:31 434035913                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/XMLParser.pcm
+7fd98fc97000-7fd98fe0e000 r--p 00000000 00:31 433284967                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Matrix.pcm
+7fd98fe0e000-7fd990559000 r--p 00000000 00:31 433594757                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/MathCore.pcm
+7fd990559000-7fd9909ab000 r--p 00000000 00:31 433284968                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Hist.pcm
+7fd9909da000-7fd990a67000 r--p 00000000 00:31 433780040                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Spectrum.pcm
+7fd990a67000-7fd990ae5000 r--p 00000000 00:31 433284971                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Foam.pcm
+7fd990ae5000-7fd990ba3000 r--p 00000000 00:31 433805572                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/PgSQL.pcm
+7fd990ba3000-7fd990c4f000 r--p 00000000 00:31 432494069                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/TreeViewer.pcm
+7fd990c4f000-7fd990ddc000 r--p 00000000 00:31 433594754                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Thread.pcm
+7fd990ddc000-7fd991040000 r--p 00000000 00:31 433594755                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/RIO.pcm
+7fd991040000-7fd9918b1000 r--p 00000000 00:31 432511003                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Core.pcm
+7fd9918b1000-7fd991940000 r--p 00000000 00:31 433594753                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/ROOT_Foundation_Stage1_NoRTTI.pcm
+7fd991940000-7fd991d34000 r--p 00000000 00:31 432511004                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/_Builtin_intrinsics.pcm
+7fd991d4c000-7fd991e10000 r--p 00000000 00:31 433594756                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Imt.pcm
+7fd991e10000-7fd991e99000 r--p 00000000 00:31 432494066                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Unfold.pcm
+7fd991ee8000-7fd991f2f000 r--p 00000000 00:31 433594747                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/ROOT_Foundation_C.pcm
+7fd991f2f000-7fd99206e000 r--p 00000000 00:31 433594746                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libc.pcm
+7fd99206e000-7fd9930c2000 r--p 00000000 00:31 433594744                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/std.pcm
+7fd9930c2000-7fd9930e7000 r-xp 00000000 08:02 80769                      /usr/lib64/libtinfo.so.5.9
+7fd9930e7000-7fd9932e7000 ---p 00025000 08:02 80769                      /usr/lib64/libtinfo.so.5.9
+7fd9932e7000-7fd9932eb000 r--p 00025000 08:02 80769                      /usr/lib64/libtinfo.so.5.9
+7fd9932eb000-7fd9932ec000 rw-p 00029000 08:02 80769                      /usr/lib64/libtinfo.so.5.9
+7fd9932ec000-7fd9964a8000 r-xp 00000000 00:31 433088355                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libCling.so.6.20.04
+7fd9964a8000-7fd9966a8000 ---p 031bc000 00:31 433088355                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libCling.so.6.20.04
+7fd9966a8000-7fd9968b9000 r--p 031bc000 00:31 433088355                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libCling.so.6.20.04
+7fd9968b9000-7fd9968c4000 rw-p 033cd000 00:31 433088355                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libCling.so.6.20.04
+7fd9968c4000-7fd9968f0000 rw-p 00000000 00:00 0 
+7fd9968f0000-7fd9968fb000 r-xp 00000000 08:02 80434                      /usr/lib64/libnss_nis-2.17.so
+7fd9968fb000-7fd996afa000 ---p 0000b000 08:02 80434                      /usr/lib64/libnss_nis-2.17.so
+7fd996afa000-7fd996afb000 r--p 0000a000 08:02 80434                      /usr/lib64/libnss_nis-2.17.so
+7fd996afb000-7fd996afc000 rw-p 0000b000 08:02 80434                      /usr/lib64/libnss_nis-2.17.so
+7fd996afc000-7fd996b08000 r-xp 00000000 08:02 2381868                    /usr/lib64/libnss_ldap.so.2
+7fd996b08000-7fd996d07000 ---p 0000c000 08:02 2381868                    /usr/lib64/libnss_ldap.so.2
+7fd996d07000-7fd996d08000 r--p 0000b000 08:02 2381868                    /usr/lib64/libnss_ldap.so.2
+7fd996d08000-7fd996d09000 rw-p 0000c000 08:02 2381868                    /usr/lib64/libnss_ldap.so.2
+7fd996d09000-7fd996d20000 r-xp 00000000 08:02 80422                      /usr/lib64/libnsl-2.17.so
+7fd996d20000-7fd996f1f000 ---p 00017000 08:02 80422                      /usr/lib64/libnsl-2.17.so
+7fd996f1f000-7fd996f20000 r--p 00016000 08:02 80422                      /usr/lib64/libnsl-2.17.so
+7fd996f20000-7fd996f21000 rw-p 00017000 08:02 80422                      /usr/lib64/libnsl-2.17.so
+7fd996f21000-7fd996f23000 rw-p 00000000 00:00 0 
+7fd996f23000-7fd996f2c000 r-xp 00000000 08:02 80424                      /usr/lib64/libnss_compat-2.17.so
+7fd996f2c000-7fd99712b000 ---p 00009000 08:02 80424                      /usr/lib64/libnss_compat-2.17.so
+7fd99712b000-7fd99712c000 r--p 00008000 08:02 80424                      /usr/lib64/libnss_compat-2.17.so
+7fd99712c000-7fd99712d000 rw-p 00009000 08:02 80424                      /usr/lib64/libnss_compat-2.17.so
+7fd99712d000-7fd997139000 r-xp 00000000 08:02 80430                      /usr/lib64/libnss_files-2.17.so
+7fd997139000-7fd997338000 ---p 0000c000 08:02 80430                      /usr/lib64/libnss_files-2.17.so
+7fd997338000-7fd997339000 r--p 0000b000 08:02 80430                      /usr/lib64/libnss_files-2.17.so
+7fd997339000-7fd99733a000 rw-p 0000c000 08:02 80430                      /usr/lib64/libnss_files-2.17.so
+7fd99733a000-7fd997340000 rw-p 00000000 00:00 0 
+7fd997340000-7fd997364000 r-xp 00000000 08:02 80730                      /usr/lib64/libselinux.so.1
+7fd997364000-7fd997563000 ---p 00024000 08:02 80730                      /usr/lib64/libselinux.so.1
+7fd997563000-7fd997564000 r--p 00023000 08:02 80730                      /usr/lib64/libselinux.so.1
+7fd997564000-7fd997565000 rw-p 00024000 08:02 80730                      /usr/lib64/libselinux.so.1
+7fd997565000-7fd997567000 rw-p 00000000 00:00 0 
+7fd997567000-7fd99757d000 r-xp 00000000 08:02 80440                      /usr/lib64/libresolv-2.17.so
+7fd99757d000-7fd99777d000 ---p 00016000 08:02 80440                      /usr/lib64/libresolv-2.17.so
+7fd99777d000-7fd99777e000 r--p 00016000 08:02 80440                      /usr/lib64/libresolv-2.17.so
+7fd99777e000-7fd99777f000 rw-p 00017000 08:02 80440                      /usr/lib64/libresolv-2.17.so
+7fd99777f000-7fd997781000 rw-p 00000000 00:00 0 
+7fd997781000-7fd997784000 r-xp 00000000 08:02 81418                      /usr/lib64/libkeyutils.so.1.5
+7fd997784000-7fd997983000 ---p 00003000 08:02 81418                      /usr/lib64/libkeyutils.so.1.5
+7fd997983000-7fd997984000 r--p 00002000 08:02 81418                      /usr/lib64/libkeyutils.so.1.5
+7fd997984000-7fd997985000 rw-p 00003000 08:02 81418                      /usr/lib64/libkeyutils.so.1.5
+7fd997985000-7fd997993000 r-xp 00000000 08:02 4100586                    /usr/lib64/libkrb5support.so.0.1
+7fd997993000-7fd997b93000 ---p 0000e000 08:02 4100586                    /usr/lib64/libkrb5support.so.0.1
+7fd997b93000-7fd997b94000 r--p 0000e000 08:02 4100586                    /usr/lib64/libkrb5support.so.0.1
+7fd997b94000-7fd997b95000 rw-p 0000f000 08:02 4100586                    /usr/lib64/libkrb5support.so.0.1
+7fd997b95000-7fd997bbe000 r-xp 00000000 08:02 80862                      /usr/lib64/libpng15.so.15.13.0
+7fd997bbe000-7fd997dbe000 ---p 00029000 08:02 80862                      /usr/lib64/libpng15.so.15.13.0
+7fd997dbe000-7fd997dbf000 r--p 00029000 08:02 80862                      /usr/lib64/libpng15.so.15.13.0
+7fd997dbf000-7fd997dc0000 rw-p 0002a000 08:02 80862                      /usr/lib64/libpng15.so.15.13.0
+7fd997dc0000-7fd997dcf000 r-xp 00000000 08:02 80886                      /usr/lib64/libbz2.so.1.0.6
+7fd997dcf000-7fd997fce000 ---p 0000f000 08:02 80886                      /usr/lib64/libbz2.so.1.0.6
+7fd997fce000-7fd997fcf000 r--p 0000e000 08:02 80886                      /usr/lib64/libbz2.so.1.0.6
+7fd997fcf000-7fd997fd0000 rw-p 0000f000 08:02 80886                      /usr/lib64/libbz2.so.1.0.6
+7fd997fd0000-7fd998001000 r-xp 00000000 08:02 4100578                    /usr/lib64/libk5crypto.so.3.1
+7fd998001000-7fd998200000 ---p 00031000 08:02 4100578                    /usr/lib64/libk5crypto.so.3.1
+7fd998200000-7fd998202000 r--p 00030000 08:02 4100578                    /usr/lib64/libk5crypto.so.3.1
+7fd998202000-7fd998203000 rw-p 00032000 08:02 4100578                    /usr/lib64/libk5crypto.so.3.1
+7fd998203000-7fd998206000 r-xp 00000000 08:02 80864                      /usr/lib64/libcom_err.so.2.1
+7fd998206000-7fd998405000 ---p 00003000 08:02 80864                      /usr/lib64/libcom_err.so.2.1
+7fd998405000-7fd998406000 r--p 00002000 08:02 80864                      /usr/lib64/libcom_err.so.2.1
+7fd998406000-7fd998407000 rw-p 00003000 08:02 80864                      /usr/lib64/libcom_err.so.2.1
+7fd998407000-7fd9984e0000 r-xp 00000000 08:02 4100584                    /usr/lib64/libkrb5.so.3.3
+7fd9984e0000-7fd9986df000 ---p 000d9000 08:02 4100584                    /usr/lib64/libkrb5.so.3.3
+7fd9986df000-7fd9986ed000 r--p 000d8000 08:02 4100584                    /usr/lib64/libkrb5.so.3.3
+7fd9986ed000-7fd9986f0000 rw-p 000e6000 08:02 4100584                    /usr/lib64/libkrb5.so.3.3
+7fd9986f0000-7fd99873a000 r-xp 00000000 08:02 2626587                    /usr/lib64/libgssapi_krb5.so.2.2
+7fd99873a000-7fd99893a000 ---p 0004a000 08:02 2626587                    /usr/lib64/libgssapi_krb5.so.2.2
+7fd99893a000-7fd99893b000 r--p 0004a000 08:02 2626587                    /usr/lib64/libgssapi_krb5.so.2.2
+7fd99893b000-7fd99893d000 rw-p 0004b000 08:02 2626587                    /usr/lib64/libgssapi_krb5.so.2.2
+7fd99893d000-7fd998944000 r-xp 00000000 08:02 80442                      /usr/lib64/librt-2.17.so
+7fd998944000-7fd998b43000 ---p 00007000 08:02 80442                      /usr/lib64/librt-2.17.so
+7fd998b43000-7fd998b44000 r--p 00006000 08:02 80442                      /usr/lib64/librt-2.17.so
+7fd998b44000-7fd998b45000 rw-p 00007000 08:02 80442                      /usr/lib64/librt-2.17.so
+7fd998b45000-7fd998bf6000 r-xp 00000000 08:02 80924                      /usr/lib64/libsqlite3.so.0.8.6
+7fd998bf6000-7fd998df5000 ---p 000b1000 08:02 80924                      /usr/lib64/libsqlite3.so.0.8.6
+7fd998df5000-7fd998df7000 r--p 000b0000 08:02 80924                      /usr/lib64/libsqlite3.so.0.8.6
+7fd998df7000-7fd998dfa000 rw-p 000b2000 08:02 80924                      /usr/lib64/libsqlite3.so.0.8.6
+7fd998dfa000-7fd998e01000 r-xp 00000000 00:31 432511002                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libvdt.so
+7fd998e01000-7fd999000000 ---p 00007000 00:31 432511002                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libvdt.so
+7fd999000000-7fd999001000 r--p 00006000 00:31 432511002                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libvdt.so
+7fd999001000-7fd999002000 rw-p 00007000 00:31 432511002                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libvdt.so
+7fd999002000-7fd9990b9000 r-xp 00000000 08:02 80887                      /usr/lib64/libfreetype.so.6.14.0
+7fd9990b9000-7fd9992b9000 ---p 000b7000 08:02 80887                      /usr/lib64/libfreetype.so.6.14.0
+7fd9992b9000-7fd9992c0000 r--p 000b7000 08:02 80887                      /usr/lib64/libfreetype.so.6.14.0
+7fd9992c0000-7fd9992c1000 rw-p 000be000 08:02 80887                      /usr/lib64/libfreetype.so.6.14.0
+7fd9992c1000-7fd9994f7000 r-xp 00000000 08:02 299027                     /usr/lib64/libcrypto.so.1.0.2k
+7fd9994f7000-7fd9996f7000 ---p 00236000 08:02 299027                     /usr/lib64/libcrypto.so.1.0.2k
+7fd9996f7000-7fd999713000 r--p 00236000 08:02 299027                     /usr/lib64/libcrypto.so.1.0.2k
+7fd999713000-7fd999720000 rw-p 00252000 08:02 299027                     /usr/lib64/libcrypto.so.1.0.2k
+7fd999720000-7fd999724000 rw-p 00000000 00:00 0 
+7fd999724000-7fd99978b000 r-xp 00000000 08:02 299029                     /usr/lib64/libssl.so.1.0.2k
+7fd99978b000-7fd99998b000 ---p 00067000 08:02 299029                     /usr/lib64/libssl.so.1.0.2k
+7fd99998b000-7fd99998f000 r--p 00067000 08:02 299029                     /usr/lib64/libssl.so.1.0.2k
+7fd99998f000-7fd999996000 rw-p 0006b000 08:02 299029                     /usr/lib64/libssl.so.1.0.2k
+7fd999996000-7fd9999d0000 r-xp 00000000 00:31 432510996                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libtbb.so.2
+7fd9999d0000-7fd999bcf000 ---p 0003a000 00:31 432510996                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libtbb.so.2
+7fd999bcf000-7fd999bd1000 r--p 00039000 00:31 432510996                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libtbb.so.2
+7fd999bd1000-7fd999bd4000 rw-p 0003b000 00:31 432510996                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libtbb.so.2
+7fd999bd4000-7fd999bd6000 rw-p 00000000 00:00 0 
+7fd999bd6000-7fd999beb000 r-xp 00000000 08:02 80851                      /usr/lib64/libz.so.1.2.7
+7fd999beb000-7fd999dea000 ---p 00015000 08:02 80851                      /usr/lib64/libz.so.1.2.7
+7fd999dea000-7fd999deb000 r--p 00014000 08:02 80851                      /usr/lib64/libz.so.1.2.7
+7fd999deb000-7fd999dec000 rw-p 00015000 08:02 80851                      /usr/lib64/libz.so.1.2.7
+7fd999dec000-7fd999e11000 r-xp 00000000 08:02 80874                      /usr/lib64/liblzma.so.5.2.2
+7fd999e11000-7fd99a010000 ---p 00025000 08:02 80874                      /usr/lib64/liblzma.so.5.2.2
+7fd99a010000-7fd99a011000 r--p 00024000 08:02 80874                      /usr/lib64/liblzma.so.5.2.2
+7fd99a011000-7fd99a012000 rw-p 00025000 08:02 80874                      /usr/lib64/liblzma.so.5.2.2
+7fd99a012000-7fd99a072000 r-xp 00000000 08:02 80838                      /usr/lib64/libpcre.so.1.2.0
+7fd99a072000-7fd99a272000 ---p 00060000 08:02 80838                      /usr/lib64/libpcre.so.1.2.0
+7fd99a272000-7fd99a273000 r--p 00060000 08:02 80838                      /usr/lib64/libpcre.so.1.2.0
+7fd99a273000-7fd99a274000 rw-p 00061000 08:02 80838                      /usr/lib64/libpcre.so.1.2.0
+7fd99a274000-7fd99a2b9000 r-xp 00000000 00:2a 433309072                  /u/apps/gcc/9.2.0/lib64/libquadmath.so.0.0.0
+7fd99a2b9000-7fd99a4b8000 ---p 00045000 00:2a 433309072                  /u/apps/gcc/9.2.0/lib64/libquadmath.so.0.0.0
+7fd99a4b8000-7fd99a4b9000 r--p 00044000 00:2a 433309072                  /u/apps/gcc/9.2.0/lib64/libquadmath.so.0.0.0
+7fd99a4b9000-7fd99a4ba000 rw-p 00045000 00:2a 433309072                  /u/apps/gcc/9.2.0/lib64/libquadmath.so.0.0.0
+7fd99a4ba000-7fd99a67e000 r-xp 00000000 08:02 80412                      /usr/lib64/libc-2.17.so
+7fd99a67e000-7fd99a87d000 ---p 001c4000 08:02 80412                      /usr/lib64/libc-2.17.so
+7fd99a87d000-7fd99a881000 r--p 001c3000 08:02 80412                      /usr/lib64/libc-2.17.so
+7fd99a881000-7fd99a883000 rw-p 001c7000 08:02 80412                      /usr/lib64/libc-2.17.so
+7fd99a883000-7fd99a888000 rw-p 00000000 00:00 0 
+7fd99a888000-7fd99a89f000 r-xp 00000000 08:02 80438                      /usr/lib64/libpthread-2.17.so
+7fd99a89f000-7fd99aa9e000 ---p 00017000 08:02 80438                      /usr/lib64/libpthread-2.17.so
+7fd99aa9e000-7fd99aa9f000 r--p 00016000 08:02 80438                      /usr/lib64/libpthread-2.17.so
+7fd99aa9f000-7fd99aaa0000 rw-p 00017000 08:02 80438                      /usr/lib64/libpthread-2.17.so
+7fd99aaa0000-7fd99aaa4000 rw-p 00000000 00:00 0 
+7fd99aaa4000-7fd99aaba000 r-xp 00000000 00:2a 433105497                  /u/apps/gcc/9.2.0/lib64/libgcc_s.so.1
+7fd99aaba000-7fd99acba000 ---p 00016000 00:2a 433105497                  /u/apps/gcc/9.2.0/lib64/libgcc_s.so.1
+7fd99acba000-7fd99acbb000 r--p 00016000 00:2a 433105497                  /u/apps/gcc/9.2.0/lib64/libgcc_s.so.1
+7fd99acbb000-7fd99acbc000 rw-p 00017000 00:2a 433105497                  /u/apps/gcc/9.2.0/lib64/libgcc_s.so.1
+7fd99acbc000-7fd99adbd000 r-xp 00000000 08:02 80420                      /usr/lib64/libm-2.17.so
+7fd99adbd000-7fd99afbc000 ---p 00101000 08:02 80420                      /usr/lib64/libm-2.17.so
+7fd99afbc000-7fd99afbd000 r--p 00100000 08:02 80420                      /usr/lib64/libm-2.17.so
+7fd99afbd000-7fd99afbe000 rw-p 00101000 08:02 80420                      /usr/lib64/libm-2.17.so
+7fd99afbe000-7fd99b187000 r-xp 00000000 00:2a 433105503                  /u/apps/gcc/9.2.0/lib64/libstdc++.so.6.0.27
+7fd99b187000-7fd99b386000 ---p 001c9000 00:2a 433105503                  /u/apps/gcc/9.2.0/lib64/libstdc++.so.6.0.27
+7fd99b386000-7fd99b391000 r--p 001c8000 00:2a 433105503                  /u/apps/gcc/9.2.0/lib64/libstdc++.so.6.0.27
+7fd99b391000-7fd99b394000 rw-p 001d3000 00:2a 433105503                  /u/apps/gcc/9.2.0/lib64/libstdc++.so.6.0.27
+7fd99b394000-7fd99b397000 rw-p 00000000 00:00 0 
+7fd99b397000-7fd99b3ba000 r-xp 00000000 00:31 433808176                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20.04
+7fd99b3ba000-7fd99b5ba000 ---p 00023000 00:31 433808176                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20.04
+7fd99b5ba000-7fd99b5bc000 r--p 00023000 00:31 433808176                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20.04
+7fd99b5bc000-7fd99b5bd000 rw-p 00025000 00:31 433808176                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20.04
+7fd99b5bd000-7fd99b5bf000 r-xp 00000000 08:02 80418                      /usr/lib64/libdl-2.17.so
+7fd99b5bf000-7fd99b7bf000 ---p 00002000 08:02 80418                      /usr/lib64/libdl-2.17.so
+7fd99b7bf000-7fd99b7c0000 r--p 00002000 08:02 80418                      /usr/lib64/libdl-2.17.so
+7fd99b7c0000-7fd99b7c1000 rw-p 00003000 08:02 80418                      /usr/lib64/libdl-2.17.so
+7fd99b7c1000-7fd99b87e000 r-xp 00000000 00:31 433704416                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libROOTDataFrame.so.6.20.04
+7fd99b87e000-7fd99ba7e000 ---p 000bd000 00:31 433704416                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libROOTDataFrame.so.6.20.04
+7fd99ba7e000-7fd99ba81000 r--p 000bd000 00:31 433704416                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libROOTDataFrame.so.6.20.04
+7fd99ba81000-7fd99ba83000 rw-p 000c0000 00:31 433704416                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libROOTDataFrame.so.6.20.04
+7fd99ba83000-7fd99ba86000 rw-p 00000000 00:00 0 
+7fd99ba86000-7fd99ba91000 r-xp 00000000 00:31 433088358                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libMultiProc.so.6.20.04
+7fd99ba91000-7fd99bc90000 ---p 0000b000 00:31 433088358                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libMultiProc.so.6.20.04
+7fd99bc90000-7fd99bc91000 r--p 0000a000 00:31 433088358                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libMultiProc.so.6.20.04
+7fd99bc91000-7fd99bc92000 rw-p 0000b000 00:31 433088358                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libMultiProc.so.6.20.04
+7fd99bc92000-7fd99bce0000 r-xp 00000000 00:31 432465618                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libThread.so.6.20.04
+7fd99bce0000-7fd99bedf000 ---p 0004e000 00:31 432465618                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libThread.so.6.20.04
+7fd99bedf000-7fd99bee3000 r--p 0004d000 00:31 432465618                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libThread.so.6.20.04
+7fd99bee3000-7fd99bee4000 rw-p 00051000 00:31 432465618                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libThread.so.6.20.04
+7fd99bee4000-7fd99bee6000 rw-p 00000000 00:00 0 
+7fd99bee6000-7fd99c0e7000 r-xp 00000000 00:31 432465627                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libMathCore.so.6.20.04
+7fd99c0e7000-7fd99c2e7000 ---p 00201000 00:31 432465627                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libMathCore.so.6.20.04
+7fd99c2e7000-7fd99c2f1000 r--p 00201000 00:31 432465627                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libMathCore.so.6.20.04
+7fd99c2f1000-7fd99c2f4000 rw-p 0020b000 00:31 432465627                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libMathCore.so.6.20.04
+7fd99c2f4000-7fd99c2fd000 rw-p 00000000 00:00 0 
+7fd99c2fd000-7fd99c346000 r-xp 00000000 00:31 433682285                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libPhysics.so.6.20.04
+7fd99c346000-7fd99c545000 ---p 00049000 00:31 433682285                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libPhysics.so.6.20.04
+7fd99c545000-7fd99c548000 r--p 00048000 00:31 433682285                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libPhysics.so.6.20.04
+7fd99c548000-7fd99c549000 rw-p 0004b000 00:31 433682285                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libPhysics.so.6.20.04
+7fd99c549000-7fd99c54a000 rw-p 00000000 00:00 0 
+7fd99c54a000-7fd99c6b9000 r-xp 00000000 00:31 433682273                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libMatrix.so.6.20.04
+7fd99c6b9000-7fd99c8b8000 ---p 0016f000 00:31 433682273                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libMatrix.so.6.20.04
+7fd99c8b8000-7fd99c8c0000 r--p 0016e000 00:31 433682273                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libMatrix.so.6.20.04
+7fd99c8c0000-7fd99c8c2000 rw-p 00176000 00:31 433682273                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libMatrix.so.6.20.04
+7fd99c8c2000-7fd99c8c6000 rw-p 00000000 00:00 0 
+7fd99c8c6000-7fd99c939000 r-xp 00000000 00:31 432530389                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libPostscript.so.6.20.04
+7fd99c939000-7fd99cb38000 ---p 00073000 00:31 432530389                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libPostscript.so.6.20.04
+7fd99cb38000-7fd99cb3f000 r--p 00072000 00:31 432530389                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libPostscript.so.6.20.04
+7fd99cb3f000-7fd99cb40000 rw-p 00079000 00:31 432530389                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libPostscript.so.6.20.04
+7fd99cb40000-7fd99cb41000 rw-p 00000000 00:00 0 
+7fd99cb41000-7fd99cb68000 r-xp 00000000 00:31 433088361                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libRint.so.6.20.04
+7fd99cb68000-7fd99cd67000 ---p 00027000 00:31 433088361                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libRint.so.6.20.04
+7fd99cd67000-7fd99cd69000 r--p 00026000 00:31 433088361                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libRint.so.6.20.04
+7fd99cd69000-7fd99cd6a000 rw-p 00028000 00:31 433088361                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libRint.so.6.20.04
+7fd99cd6a000-7fd99cee6000 r-xp 00000000 00:31 433704410                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libTreePlayer.so.6.20.04
+7fd99cee6000-7fd99d0e5000 ---p 0017c000 00:31 433704410                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libTreePlayer.so.6.20.04
+7fd99d0e5000-7fd99d0f0000 r--p 0017b000 00:31 433704410                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libTreePlayer.so.6.20.04
+7fd99d0f0000-7fd99d0f3000 rw-p 00186000 00:31 433704410                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libTreePlayer.so.6.20.04
+7fd99d0f3000-7fd99d0f9000 rw-p 00000000 00:00 0 
+7fd99d0f9000-7fd99d268000 r-xp 00000000 00:31 433704407                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libTree.so.6.20.04
+7fd99d268000-7fd99d467000 ---p 0016f000 00:31 433704407                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libTree.so.6.20.04
+7fd99d467000-7fd99d477000 r--p 0016e000 00:31 433704407                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libTree.so.6.20.04
+7fd99d477000-7fd99d47a000 rw-p 0017e000 00:31 433704407                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libTree.so.6.20.04
+7fd99d47a000-7fd99d47e000 rw-p 00000000 00:00 0 
+7fd99d47e000-7fd99d552000 r-xp 00000000 00:31 433228467                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libROOTVecOps.so.6.20.04
+7fd99d552000-7fd99d751000 ---p 000d4000 00:31 433228467                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libROOTVecOps.so.6.20.04
+7fd99d751000-7fd99d753000 r--p 000d3000 00:31 433228467                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libROOTVecOps.so.6.20.04
+7fd99d753000-7fd99d754000 rw-p 000d5000 00:31 433228467                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libROOTVecOps.so.6.20.04
+7fd99d754000-7fd99d756000 rw-p 00000000 00:00 0 
+7fd99d756000-7fd99d822000 r-xp 00000000 00:31 432530383                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libGpad.so.6.20.04
+7fd99d822000-7fd99da21000 ---p 000cc000 00:31 432530383                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libGpad.so.6.20.04
+7fd99da21000-7fd99da2b000 r--p 000cb000 00:31 432530383                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libGpad.so.6.20.04
+7fd99da2b000-7fd99da2d000 rw-p 000d5000 00:31 432530383                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libGpad.so.6.20.04
+7fd99da2d000-7fd99da2e000 rw-p 00000000 00:00 0 
+7fd99da2e000-7fd99dacf000 r-xp 00000000 00:31 433681580                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libGraf3d.so.6.20.04
+7fd99dacf000-7fd99dccf000 ---p 000a1000 00:31 433681580                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libGraf3d.so.6.20.04
+7fd99dccf000-7fd99dcd9000 r--p 000a1000 00:31 433681580                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libGraf3d.so.6.20.04
+7fd99dcd9000-7fd99dcda000 rw-p 000ab000 00:31 433681580                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libGraf3d.so.6.20.04
+7fd99dcda000-7fd99dcde000 rw-p 00000000 00:00 0 
+7fd99dcde000-7fd99de30000 r-xp 00000000 00:31 432530386                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libGraf.so.6.20.04
+7fd99de30000-7fd99e02f000 ---p 00152000 00:31 432530386                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libGraf.so.6.20.04
+7fd99e02f000-7fd99e03d000 r--p 00151000 00:31 432530386                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libGraf.so.6.20.04
+7fd99e03d000-7fd99e041000 rw-p 0015f000 00:31 432530386                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libGraf.so.6.20.04
+7fd99e041000-7fd99e04f000 rw-p 00000000 00:00 0 
+7fd99e04f000-7fd99e425000 r-xp 00000000 00:31 433748136                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libHist.so.6.20.04
+7fd99e425000-7fd99e624000 ---p 003d6000 00:31 433748136                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libHist.so.6.20.04
+7fd99e624000-7fd99e64e000 r--p 003d5000 00:31 433748136                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libHist.so.6.20.04
+7fd99e64e000-7fd99e652000 rw-p 003ff000 00:31 433748136                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libHist.so.6.20.04
+7fd99e652000-7fd99e65d000 rw-p 00000000 00:00 0 
+7fd99e65d000-7fd99e726000 r-xp 00000000 00:31 433899649                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libNet.so.6.20.04
+7fd99e726000-7fd99e925000 ---p 000c9000 00:31 433899649                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libNet.so.6.20.04
+7fd99e925000-7fd99e931000 r--p 000c8000 00:31 433899649                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libNet.so.6.20.04
+7fd99e931000-7fd99e933000 rw-p 000d4000 00:31 433899649                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libNet.so.6.20.04
+7fd99e933000-7fd99e93a000 rw-p 00000000 00:00 0 
+7fd99e93a000-7fd99ecdd000 r-xp 00000000 00:31 433704419                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libRIO.so.6.20.04
+7fd99ecdd000-7fd99eedd000 ---p 003a3000 00:31 433704419                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libRIO.so.6.20.04
+7fd99eedd000-7fd99eeea000 r--p 003a3000 00:31 433704419                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libRIO.so.6.20.04
+7fd99eeea000-7fd99eeed000 rw-p 003b0000 00:31 433704419                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libRIO.so.6.20.04
+7fd99eeed000-7fd99eef0000 rw-p 00000000 00:00 0 
+7fd99eef0000-7fd99eefd000 r-xp 00000000 00:31 432465621                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libImt.so.6.20.04
+7fd99eefd000-7fd99f0fd000 ---p 0000d000 00:31 432465621                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libImt.so.6.20.04
+7fd99f0fd000-7fd99f0fe000 r--p 0000d000 00:31 432465621                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libImt.so.6.20.04
+7fd99f0fe000-7fd99f0ff000 rw-p 0000e000 00:31 432465621                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libImt.so.6.20.04
+7fd99f0ff000-7fd99f5d0000 r-xp 00000000 00:31 432521156                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libCore.so.6.20.04
+7fd99f5d0000-7fd99f7cf000 ---p 004d1000 00:31 432521156                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libCore.so.6.20.04
+7fd99f7cf000-7fd99f7f9000 r--p 004d0000 00:31 432521156                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libCore.so.6.20.04
+7fd99f7f9000-7fd99f7ff000 rw-p 004fa000 00:31 432521156                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libCore.so.6.20.04
+7fd99f7ff000-7fd99f833000 rw-p 00000000 00:00 0 
+7fd99f833000-7fd99fabe000 r-xp 00000000 00:2a 433088625                  /u/apps/gcc/9.2.0/lib64/libgfortran.so.5.0.0
+7fd99fabe000-7fd99fcbe000 ---p 0028b000 00:2a 433088625                  /u/apps/gcc/9.2.0/lib64/libgfortran.so.5.0.0
+7fd99fcbe000-7fd99fcbf000 r--p 0028b000 00:2a 433088625                  /u/apps/gcc/9.2.0/lib64/libgfortran.so.5.0.0
+7fd99fcbf000-7fd99fcc1000 rw-p 0028c000 00:2a 433088625                  /u/apps/gcc/9.2.0/lib64/libgfortran.so.5.0.0
+7fd99fcc1000-7fd99fce3000 r-xp 00000000 08:02 80398                      /usr/lib64/ld-2.17.so
+7fd99fcef000-7fd99fd0c000 r--p 00000000 00:31 433594751                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/ROOT_Config.pcm
+7fd99fd0c000-7fd99fd24000 r--p 00000000 00:31 433594750                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/ROOT_Rtypes.pcm
+7fd99fd24000-7fd99fd4e000 r--p 00000000 00:31 433594748                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Cling_Runtime_Extra.pcm
+7fd99fd4e000-7fd99fd76000 rw-p 00000000 00:00 0 
+7fd99fd84000-7fd99fd85000 rw-p 00000000 00:00 0 
+7fd99fd85000-7fd99fd86000 r-xp 00000000 00:00 0 
+7fd99fd86000-7fd99fd9e000 r--p 00000000 00:31 433594745                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/Cling_Runtime.pcm
+7fd99fddf000-7fd99fdeb000 r--p 00000000 00:31 432511005                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/_Builtin_stddef_max_align_t.pcm
+7fd99fdeb000-7fd99fdf7000 r--p 00000000 00:31 433594749                  /u/site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/xlocale.h.pcm
+7fd99fdf7000-7fd99fe28000 rw-p 00000000 00:00 0 
+7fd99fe56000-7fd99fe57000 rw-p 00000000 00:00 0 
+7fd99fe57000-7fd99fe59000 r-xp 00000000 00:00 0 
+7fd99fe59000-7fd99feb0000 rw-p 00000000 00:00 0 
+7fd99feb0000-7fd99feb1000 r-xp 00000000 00:00 0 
+7fd99feb1000-7fd99fee2000 rw-p 00000000 00:00 0 
+7fd99fee2000-7fd99fee3000 r--p 00021000 08:02 80398                      /usr/lib64/ld-2.17.so
+7fd99fee3000-7fd99fee4000 rw-p 00022000 08:02 80398                      /usr/lib64/ld-2.17.so
+7fd99fee4000-7fd99fee5000 rw-p 00000000 00:00 0 
+7fffe2eae000-7fffe2ed2000 rw-p 00000000 00:00 0                          [stack]
+7fffe2fab000-7fffe2fad000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
