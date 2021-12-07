@@ -1,0 +1,56 @@
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f897422646c in waitpid () from /lib64/libc.so.6
+#1  0x00007f89741a3f62 in do_system () from /lib64/libc.so.6
+#2  0x00007f8979090f95 in TUnixSystem::StackTrace() () from /site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libCore.so.6.20
+#3  0x00007f897908e00c in TUnixSystem::DispatchSignals(ESignals) () from /site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libCore.so.6.20
+#4  <signal handler called>
+#5  format_hash (dtp=0x7fff3cfbe6f0, dtp=0x7fff3cfbe6f0) at ../../../gcc-9.2.0/libgfortran/io/format.c:128
+#6  find_parsed_format (dtp=0x7fff3cfbe6f0) at ../../../gcc-9.2.0/libgfortran/io/format.c:163
+#7  _gfortrani_parse_format (dtp=dtp
+entry=0x7fff3cfbe6f0) at ../../../gcc-9.2.0/libgfortran/io/format.c:1303
+#8  0x00007f8979711f68 in data_transfer_init (dtp=0x7fff3cfbe6f0, read_flag=0) at ../../../gcc-9.2.0/libgfortran/io/transfer.c:2947
+#9  0x000000000041d5a4 in mtlprt_ ()
+#10 0x000000000041d49e in dgauss_ ()
+#11 0x000000000041ccd8 in dcauch_ ()
+#12 0x0000000000417e72 in realcffproton_ ()
+#13 0x0000000000417f78 in xsection_freeproton_ ()
+#14 0x000000000040afa6 in DVCSmodel::Model4() ()
+#15 0x00007f8975053a99 in TFoam::Explore(TFoamCell*) () from /site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20
+#16 0x00007f897504d786 in TFoam::Divide(TFoamCell*) () from /site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20
+#17 0x00007f897504ecb0 in TFoam::Grow() () from /site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20
+#18 0x00007f8975051dea in TFoam::Initialize() () from /site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20
+#19 0x0000000000407502 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum http://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at http://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  format_hash (dtp=0x7fff3cfbe6f0, dtp=0x7fff3cfbe6f0) at ../../../gcc-9.2.0/libgfortran/io/format.c:128
+#6  find_parsed_format (dtp=0x7fff3cfbe6f0) at ../../../gcc-9.2.0/libgfortran/io/format.c:163
+#7  _gfortrani_parse_format (dtp=dtp
+entry=0x7fff3cfbe6f0) at ../../../gcc-9.2.0/libgfortran/io/format.c:1303
+#8  0x00007f8979711f68 in data_transfer_init (dtp=0x7fff3cfbe6f0, read_flag=0) at ../../../gcc-9.2.0/libgfortran/io/transfer.c:2947
+#9  0x000000000041d5a4 in mtlprt_ ()
+#10 0x000000000041d49e in dgauss_ ()
+#11 0x000000000041ccd8 in dcauch_ ()
+#12 0x0000000000417e72 in realcffproton_ ()
+#13 0x0000000000417f78 in xsection_freeproton_ ()
+#14 0x000000000040afa6 in DVCSmodel::Model4() ()
+#15 0x00007f8975053a99 in TFoam::Explore(TFoamCell*) () from /site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20
+#16 0x00007f897504d786 in TFoam::Divide(TFoamCell*) () from /site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20
+#17 0x00007f897504ecb0 in TFoam::Grow() () from /site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20
+#18 0x00007f8975051dea in TFoam::Initialize() () from /site/12gev_phys/2.4/Linux_CentOS7.7.1908-gcc9.2.0/root/6.20.04/lib/libFoam.so.6.20
+#19 0x0000000000407502 in main ()
+===========================================================
